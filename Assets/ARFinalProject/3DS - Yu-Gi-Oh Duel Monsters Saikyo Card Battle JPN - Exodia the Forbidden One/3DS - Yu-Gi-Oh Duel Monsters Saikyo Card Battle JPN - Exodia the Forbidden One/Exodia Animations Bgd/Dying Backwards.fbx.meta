@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: d3fd6083439b8b4458da900ae2b64644
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mixamo.com' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Exo_Chest1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dying
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Exo_UpperBody
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LShin
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RShin
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LFootBone1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RFootBone1
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LBicep
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RBicep
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LFootBone2
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RFootBone2
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_LPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_RPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Exo_Spine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Model(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Model_skeleton
+      parentName: Model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mesh0
+      parentName: Model_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mesh1
+      parentName: Model_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: M1233_Exo_Root
+      parentName: Model_skeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_joint
+      parentName: M1233_Exo_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_GlobalSRT
+      parentName: Exo_joint
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_UpperBody
+      parentName: Exo_GlobalSRT
+      position: {x: -0, y: 19.5505, z: 0.018953}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_BSkirt1
+      parentName: Exo_UpperBody
+      position: {x: -0.012051, y: 0.7678051, z: -2.65635}
+      rotation: {x: -0.40850046, y: -0.5771734, z: 0.40850046, w: 0.5771704}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Exo_BSkirt2
+      parentName: Exo_BSkirt1
+      position: {x: -1.63306, y: 0.000000953674, z: -0.0000000670552}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.0000005066395, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Exo_BSkirt3
+      parentName: Exo_BSkirt2
+      position: {x: -2.39799, y: -0.000000953674, z: -0.0000000977889}
+      rotation: {x: 0.000000014901085, y: 0.00000002980238, z: 0.0000018477438, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: Exo_FSkirt1
+      parentName: Exo_UpperBody
+      position: {x: -0, y: 0.7678051, z: 2.50272}
+      rotation: {x: 0.41865537, y: 0.5698504, z: 0.41865534, w: 0.56984735}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Exo_FSkirt2
+      parentName: Exo_FSkirt1
+      position: {x: -1.633062, y: -0.00000953674, z: -0.0000000137006}
+      rotation: {x: -0, y: -0, z: -0.00000028312203, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Exo_FSkirt3
+      parentName: Exo_FSkirt2
+      position: {x: -2.397992, y: -0.0000171661, z: -0.0000000232758}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_LFSkirt1
+      parentName: Exo_UpperBody
+      position: {x: -1.95228, y: 0.7678776, z: 2.02087}
+      rotation: {x: 0.24699588, y: 0.33214626, z: 0.5210287, w: 0.746459}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Exo_LFSkirt2
+      parentName: Exo_LFSkirt1
+      position: {x: -1.63306, y: -0.00000953674, z: 0.00000149012}
+      rotation: {x: -0.000000014901161, y: -0.00000011920929, z: 0.000000029802322, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Exo_LFSkirt3
+      parentName: Exo_LFSkirt2
+      position: {x: -2.397991, y: -0.0000152588, z: 0.00000208616}
+      rotation: {x: -0.000000014901039, y: 0.00000023841855, z: 0.00000093877304, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Exo_LSkirt1
+      parentName: Exo_UpperBody
+      position: {x: -3.10957, y: 0.7680779, z: -0.04327}
+      rotation: {x: -0, y: -0, z: 0.5140437, w: 0.85776407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_LSkirt2
+      parentName: Exo_LSkirt1
+      position: {x: -1.633061, y: -0.00000953674, z: 0}
+      rotation: {x: 5.8753886e-18, y: 6.5505152e-18, z: 0.03556424, w: 0.99936736}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1}
+    - name: Exo_LSkirt3
+      parentName: Exo_LSkirt2
+      position: {x: -2.397991, y: -0.0000190735, z: 0.00000000186265}
+      rotation: {x: 9.845697e-17, y: -1.0700202e-16, z: 0.022865094, w: 0.99973863}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Exo_LThigh
+      parentName: Exo_UpperBody
+      position: {x: -1.9678, y: -0.7256241, z: -0.018953}
+      rotation: {x: 0.5065493, y: 0.49336573, z: -0.5065492, w: -0.49336198}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Exo_LKnee
+      parentName: Exo_LThigh
+      position: {x: -7.910742, y: -0.04230106, z: -0.00000107288}
+      rotation: {x: -0.7574923, y: -0.65284413, z: 0.0000005066395, w: 0.000000834465}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000004}
+    - name: Exo_LShin
+      parentName: Exo_LThigh
+      position: {x: -7.909621, y: 0.0000289679, z: -0.00000107288}
+      rotation: {x: -0.00000023841855, y: 0.00000008940696, z: 0.05641838, w: -0.9984072}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Exo_LFChain1
+      parentName: Exo_LShin
+      position: {x: -7.280164, y: -0.1069996, z: 1.926522}
+      rotation: {x: 0.706445, y: 0.03058152, z: -0.7064454, w: 0.030582214}
+      scale: {x: 0.99995494, y: 0.9999997, z: 1.0000001}
+    - name: Exo_LFChain2
+      parentName: Exo_LFChain1
+      position: {x: -2.640049, y: 0.0000116229, z: 0.000000476837}
+      rotation: {x: -0.0000008214265, y: 8.731149e-10, z: -0.000000020489097, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Exo_LFChain3
+      parentName: Exo_LFChain2
+      position: {x: -2.700122, y: 0.0000119507, z: -0.000000476837}
+      rotation: {x: -0.0000000018624744, y: -0.0000018859846, z: -0.0000019557788, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Exo_LFootBone1
+      parentName: Exo_LShin
+      position: {x: -8.263584, y: 0.0000397563, z: 0.00000238419}
+      rotation: {x: -0.0000003035365, y: 0.00000003787308, z: -0.4697805, w: -0.8827833}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Exo_LFootBone2
+      parentName: Exo_LFootBone1
+      position: {x: -3.20203, y: -0.00000178814, z: 0.00000274181}
+      rotation: {x: -0.000000656613, y: 0.0000016877879, z: 0.21399534, w: 0.97683465}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Exo_RFSkirt1
+      parentName: Exo_UpperBody
+      position: {x: 1.95228, y: 0.7678776, z: 2.02087}
+      rotation: {x: 0.52103454, y: 0.7464543, z: 0.24699798, w: 0.3321461}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: Exo_RFSkirt2
+      parentName: Exo_RFSkirt1
+      position: {x: -1.63306, y: 0.0000123978, z: 0.00000101328}
+      rotation: {x: -0.000000044703484, y: 0.00000017881393, z: 0.0000005662441, w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+    - name: Exo_RFSkirt3
+      parentName: Exo_RFSkirt2
+      position: {x: -2.397993, y: 0.0000219345, z: 0.000000953674}
+      rotation: {x: -0.00000023841832, y: 0.00000014901174, z: -0.0000007748604, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: Exo_RSkirt1
+      parentName: Exo_UpperBody
+      position: {x: 3.10957, y: 0.7680779, z: -0.04327}
+      rotation: {x: 0.5140498, y: 0.85776037, z: -0.0000010880088, w: -0.00000065203614}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Exo_RSkirt2
+      parentName: Exo_RSkirt1
+      position: {x: -1.63306, y: 0.0000114441, z: -0.0000000949949}
+      rotation: {x: -0.0000000023203484, y: -0.00000005629761, z: 0.0355649, w: 0.9993674}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.99999964}
+    - name: Exo_RSkirt3
+      parentName: Exo_RSkirt2
+      position: {x: -2.397992, y: 0.0000114441, z: 0.000000266358}
+      rotation: {x: 0.0000000073511677, y: 0.000000016073114, z: 0.022858081, w: 0.99973875}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000005}
+    - name: Exo_RThigh
+      parentName: Exo_UpperBody
+      position: {x: 1.9678, y: -0.7256241, z: -0.018953}
+      rotation: {x: 0.5065493, y: 0.49336573, z: -0.5065492, w: -0.49336198}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Exo_RKnee
+      parentName: Exo_RThigh
+      position: {x: -7.910739, y: -0.04230106, z: -0.000000953674}
+      rotation: {x: -0.75749195, y: -0.6528444, z: 0.00000053644175, w: 0.00000077486027}
+      scale: {x: 1.0000001, y: 1, z: 1.0000006}
+    - name: Exo_RShin
+      parentName: Exo_RThigh
+      position: {x: -7.909618, y: 0.0000289083, z: -0.000000953674}
+      rotation: {x: -0.0000002682209, y: 0.000000059604645, z: 0.05641836, w: -0.99840724}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Exo_RFChain1
+      parentName: Exo_RShin
+      position: {x: -7.280164, y: -0.1070005, z: -1.926497}
+      rotation: {x: 0.70644486, y: 0.030582191, z: 0.70644546, w: -0.030581508}
+      scale: {x: 0.999955, y: 0.99999976, z: 0.9999998}
+    - name: Exo_RFChain2
+      parentName: Exo_RFChain1
+      position: {x: -2.640049, y: 0.00000795722, z: -0.00000190735}
+      rotation: {x: 0.00000081397593, y: 0.0000001208391, z: 0.000000029802322, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999997}
+    - name: Exo_RFChain3
+      parentName: Exo_RFChain2
+      position: {x: -2.700122, y: 0.00000819564, z: -0.00000166893}
+      rotation: {x: 0.000000020488812, y: -0.0000019746933, z: 0.0000019799934, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Exo_RFootBone1
+      parentName: Exo_RShin
+      position: {x: -8.263582, y: 0.0000398755, z: 0.00000274181}
+      rotation: {x: -0.00000019321644, y: 0.00000038478368, z: -0.46978068, w: -0.88278323}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Exo_RFootBone2
+      parentName: Exo_RFootBone1
+      position: {x: -3.20203, y: -0.00000214577, z: 0.00000309944}
+      rotation: {x: -0.0000005653721, y: 0.0000018829307, z: 0.21399513, w: 0.9768347}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Exo_Spine1
+      parentName: Exo_UpperBody
+      position: {x: -0, y: 0.4837513, z: 0.012636}
+      rotation: {x: -0.0055984543, y: -0, z: -0, w: 0.9999843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_Spine2
+      parentName: Exo_Spine1
+      position: {x: -0, y: 1.559929, z: -0.07073402}
+      rotation: {x: -0.0166047, y: -0, z: -0, w: 0.99986213}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Exo_Spine3
+      parentName: Exo_Spine2
+      position: {x: -0, y: 1.560522, z: 0.04614395}
+      rotation: {x: 0.031625107, y: -0, z: -0, w: 0.99949986}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Exo_Chest1
+      parentName: Exo_Spine3
+      position: {x: -0, y: 1.561209, z: 0.02953812}
+      rotation: {x: 0.014416136, y: -0, z: -0, w: 0.99989617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_LShoulder
+      parentName: Exo_Chest1
+      position: {x: -1.13722, y: 1.33844, z: -0.6038342}
+      rotation: {x: -0.7237609, y: 0.0020377983, z: -0.0021373641, w: 0.6900446}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Exo_LArmer
+      parentName: Exo_LShoulder
+      position: {x: -3.35026, y: 0.2455495, z: 1.386683}
+      rotation: {x: 0.70710576, y: -0.002088766, z: 0.0020884578, w: 0.7071016}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: Exo_LBicep
+      parentName: Exo_LShoulder
+      position: {x: -2.524149, y: 0.00000113249, z: -0.0000038147}
+      rotation: {x: -0.01429626, y: -0.0086993715, z: -0.038146038, w: 0.99913204}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: Exo_LForearm
+      parentName: Exo_LBicep
+      position: {x: -5.496778, y: -0.0000160635, z: -0.0000152588}
+      rotation: {x: 0.000005990266, y: -0.00000059790904, z: 0.060403906, w: 0.9981741}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000001}
+    - name: Exo_LAChain1
+      parentName: Exo_LForearm
+      position: {x: -5.132258, y: 0.1214337, z: -1.448723}
+      rotation: {x: 0.71022695, y: -0.026192723, z: 0.70346487, w: 0.0053721326}
+      scale: {x: 0.9999344, y: 0.9999996, z: 0.99997187}
+    - name: Exo_LAChain2
+      parentName: Exo_LAChain1
+      position: {x: -2.6401, y: -0.0000169873, z: -0.000237465}
+      rotation: {x: -0.00000027264463, y: 0.00000009404901, z: -0.000000024214382, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Exo_LAChain3
+      parentName: Exo_LAChain2
+      position: {x: -2.749691, y: -0.0000154376, z: -0.000246048}
+      rotation: {x: -0, y: -0, z: 7.7296653e-16, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Exo_LHand
+      parentName: Exo_LForearm
+      position: {x: -5.320877, y: -0.0000238419, z: -0.0000038147}
+      rotation: {x: 0.7172576, y: -0.012339059, z: -0.01922431, w: 0.69643354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_LIndex1
+      parentName: Exo_LHand
+      position: {x: -2.568329, y: 0.04712105, z: 0.8721362}
+      rotation: {x: 0.04250456, y: 0.06872059, z: 0.04116949, w: 0.9958795}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Exo_LIndex2
+      parentName: Exo_LIndex1
+      position: {x: -1.095101, y: 0.00000190735, z: 0.000000953674}
+      rotation: {x: 0.00000024586905, y: -0.00000012665981, z: 0.06360237, w: 0.9979753}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: Exo_LMiddle1
+      parentName: Exo_LHand
+      position: {x: -2.688988, y: 0.1725559, z: 0.2009851}
+      rotation: {x: -0.0009630914, y: 0.011847037, z: 0.045332573, w: 0.9989013}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: Exo_LMiddle2
+      parentName: Exo_LMiddle1
+      position: {x: -1.162361, y: -0.00000190735, z: 0}
+      rotation: {x: -0.000000065245096, y: -0.000000023200068, z: 0.073471315, w: 0.99729735}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Exo_LPinky1
+      parentName: Exo_LHand
+      position: {x: -2.513451, y: -0.08128357, z: -1.228939}
+      rotation: {x: -0.09459828, y: -0.030479366, z: -0.0011827926, w: 0.9950481}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Exo_LPinky2
+      parentName: Exo_LPinky1
+      position: {x: -0.7423134, y: 0.00000190735, z: 0.000000953674}
+      rotation: {x: 0.0000015422698, y: 0.00000026822084, z: 0.10155108, w: 0.9948303}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: Exo_LRing1
+      parentName: Exo_LHand
+      position: {x: -2.624159, y: 0.172554, z: -0.5590781}
+      rotation: {x: -0.010825181, y: -0.010908023, z: 0.031029943, w: 0.9994003}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: Exo_LRing2
+      parentName: Exo_LRing1
+      position: {x: -1.009591, y: 0.00000572205, z: 0}
+      rotation: {x: -0.00000035669646, y: 0.00000011175868, z: 0.07248247, w: 0.99736977}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Exo_LThumb1
+      parentName: Exo_LHand
+      position: {x: -1.070901, y: -0.314476, z: 0.9583782}
+      rotation: {x: 0.36121988, y: 0.40725344, z: -0.11803937, w: 0.8305009}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999999}
+    - name: Exo_LThumb2
+      parentName: Exo_LThumb1
+      position: {x: -1.024657, y: -0.00000190735, z: -0.00000190735}
+      rotation: {x: 0.000000089406946, y: 0.0000012218949, z: 0.068051085, w: 0.9976819}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Exo_Neck
+      parentName: Exo_Chest1
+      position: {x: -0, y: 1.835089, z: 0.2549086}
+      rotation: {x: -0.057525396, y: -0.057525225, z: -0.704763, w: 0.704763}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Exo_Head
+      parentName: Exo_Neck
+      position: {x: -2.318998, y: 0.0000083819, z: 0.000000238419}
+      rotation: {x: 0.000000011175868, y: 0.22457461, z: -0.00000004004686, w: 0.9744569}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: Exo_mouse
+      parentName: Exo_Head
+      position: {x: -0.1726818, y: -0.000000678003, z: 0.9847326}
+      rotation: {x: -0.5411386, y: 0.45515785, z: 0.45515838, w: 0.5411389}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Exo_RShoulder
+      parentName: Exo_Chest1
+      position: {x: 1.13722, y: 1.33844, z: -0.6038342}
+      rotation: {x: 0.0021383786, y: -0.6900446, z: 0.7237609, w: -0.0020387648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Exo_RArmer
+      parentName: Exo_RShoulder
+      position: {x: -3.350261, y: 0.2455527, z: -1.386694}
+      rotation: {x: 0.7071049, y: -0.002088042, z: -0.0020877707, w: -0.7071026}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Exo_RBicep
+      parentName: Exo_RShoulder
+      position: {x: -2.524151, y: 0.000000715256, z: -0.0000038147}
+      rotation: {x: 0.014296277, y: 0.008700459, z: -0.038145043, w: 0.99913204}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: Exo_RForearm
+      parentName: Exo_RBicep
+      position: {x: -5.496782, y: -0.00000655651, z: -0.00000762939}
+      rotation: {x: 0.0000017695122, y: -0.00000014808023, z: 0.060407683, w: 0.9981738}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Exo_RAChain1
+      parentName: Exo_RForearm
+      position: {x: -5.132259, y: 0.1215013, z: 1.448719}
+      rotation: {x: 0.7103051, y: -0.026204381, z: -0.7033856, w: -0.005369211}
+      scale: {x: 1.0000196, y: 1, z: 1.0000082}
+    - name: Exo_RAChain2
+      parentName: Exo_RAChain1
+      position: {x: -2.639879, y: 0.00000464916, z: -0.0000619888}
+      rotation: {x: 0.0000011217779, y: 0.00000010407528, z: 0.00000006332993, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Exo_RAChain3
+      parentName: Exo_RAChain2
+      position: {x: -2.749453, y: 0.00000679493, z: -0.0000629425}
+      rotation: {x: 0.000000021886079, y: 0.000000028085122, z: -0.0000000651926, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Exo_RHand
+      parentName: Exo_RForearm
+      position: {x: -5.320879, y: 0.0000266433, z: 0.0000038147}
+      rotation: {x: 0.7172621, y: -0.01234356, z: 0.019226352, w: -0.69642895}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1}
+    - name: Exo_RIndex1
+      parentName: Exo_RHand
+      position: {x: -2.568334, y: 0.04713058, z: -0.8721349}
+      rotation: {x: -0.04250486, y: -0.06872199, z: 0.041172728, w: 0.99587923}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: Exo_RIndex2
+      parentName: Exo_RIndex1
+      position: {x: -1.095098, y: 0.00000762939, z: 0.000000476837}
+      rotation: {x: -0.000000048428756, y: 0.00000011920925, z: 0.06360291, w: 0.9979753}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000008}
+    - name: Exo_RMiddle1
+      parentName: Exo_RHand
+      position: {x: -2.688994, y: 0.1725636, z: -0.2009848}
+      rotation: {x: 0.00096315076, y: -0.011846487, z: 0.045333464, w: 0.9989012}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Exo_RMiddle2
+      parentName: Exo_RMiddle1
+      position: {x: -1.16236, y: 0.00000190735, z: -0.0000000596046}
+      rotation: {x: 0.000000051445923, y: -0.00000006507812, z: 0.07346434, w: 0.99729794}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: Exo_RPinky1
+      parentName: Exo_RHand
+      position: {x: -2.513453, y: -0.08127785, z: 1.22893}
+      rotation: {x: 0.094596416, y: 0.03047889, z: -0.0011836544, w: 0.9950484}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: Exo_RPinky2
+      parentName: Exo_RPinky1
+      position: {x: -0.7423124, y: 0.00000190735, z: 0}
+      rotation: {x: -0.00000081956375, y: -0.00000026822087, z: 0.10155221, w: 0.9948303}
+      scale: {x: 1.0000008, y: 0.9999999, z: 1.0000008}
+    - name: Exo_RRing1
+      parentName: Exo_RHand
+      position: {x: -2.624164, y: 0.1725636, z: 0.5590773}
+      rotation: {x: 0.0108258985, y: 0.010908582, z: 0.031022623, w: 0.99940056}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Exo_RRing2
+      parentName: Exo_RRing1
+      position: {x: -1.009591, y: -0.00000762939, z: 0.000000238419}
+      rotation: {x: -0.00000045262266, y: 0.00000014901158, z: 0.0724909, w: 0.99736905}
+      scale: {x: 1.0000002, y: 0.9999997, z: 1.0000007}
+    - name: Exo_RThumb1
+      parentName: Exo_RHand
+      position: {x: -1.070903, y: -0.3144722, z: -0.958378}
+      rotation: {x: -0.36122015, y: -0.40725252, z: -0.118040115, w: 0.830501}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000002}
+    - name: Exo_RThumb2
+      parentName: Exo_RThumb1
+      position: {x: -1.024662, y: -0.00000190735, z: 0}
+      rotation: {x: -0.000006943938, y: 0.0000027716146, z: 0.068046406, w: 0.99768215}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: M1233_Exo
+      parentName: M1233_Exo_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Model
+      parentName: Model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 1f1977b8ed048db41858c54cf607f97d, type: 2}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
